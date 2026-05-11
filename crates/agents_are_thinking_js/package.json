@@ -1,0 +1,30 @@
+{
+  "name": "agents-are-thinking",
+  "version": "0.1.5",
+  "type": "module",
+  "description": "Terminal animation effects for agents' thinking state — WASM/JS bindings",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeaashu/agents-are-thinking"
+  },
+  "homepage": "https://github.com/codeaashu/agents-are-thinking/tree/main",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "pkg/"
+  ],
+  "scripts": {
+    "build": "rustup run stable wasm-pack build --target bundler --out-dir pkg && rm -f pkg/.gitignore",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": [
+    "./pkg/agents_are_thinking_js.js",
+    "./pkg/snippets/*"
+  ]
+}

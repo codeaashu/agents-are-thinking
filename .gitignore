@@ -1,0 +1,46 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+*.rlib
+*.rmeta
+
+# WASM build output
+**/pkg/
+
+# Node.js / npm
+node_modules/
+dist/
+*.tgz
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+site/dist/
+crates/*/pkg/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Misc
+.turbo/
+.cache/
+*.tsbuildinfo
