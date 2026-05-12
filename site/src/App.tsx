@@ -3,6 +3,7 @@ import { EFFECTS } from 'agents-are-thinking';
 import { Header } from './Header';
 import { InfiniteCanvas } from './InfiniteCanvas';
 import { Drawer } from './Drawer';
+import s from './App.module.css';
 
 function App() {
   const [selected, setSelected] = useState<number | null>(null);
@@ -21,6 +22,17 @@ function App() {
   return (
     <>
       <Header />
+      <aside className={s.about} aria-label="About this project">
+        <p className={s.kicker}>About</p>
+        <h1 className={s.heading}>Agents Are Thinking</h1>
+        <p className={s.body}>
+          A live gallery of animated terminal-style effects built for sharing, embedding, and discovery. Created by{' '}
+          <a href="https://x.com/warrioraashuu" target="_blank" rel="noopener noreferrer">
+            aashuu
+          </a>
+          .
+        </p>
+      </aside>
       <InfiniteCanvas onSelect={setSelected} />
       <Drawer
         effectIndex={selected ?? 0}

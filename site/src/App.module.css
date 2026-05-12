@@ -1,0 +1,48 @@
+.about {
+  position: fixed;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 45;
+  max-width: min(32rem, calc(100vw - 3rem));
+  padding: 1rem 1.1rem;
+  border: var(--border);
+  border-radius: 1rem;
+  backdrop-filter: blur(18px);
+  background: rgb(var(--color-primary-background) / 0.78);
+  box-shadow: 0 12px 48px rgb(0 0 0 / 0.12);
+}
+
+.kicker {
+  margin-bottom: 0.35rem;
+  color: rgb(var(--color-secondary-foreground));
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-family: var(--typography-button-fontFamily);
+  font-size: 1.1rem;
+  line-height: 1.15;
+  margin-bottom: 0.45rem;
+}
+
+.body {
+  color: rgb(var(--color-primary-foreground) / 0.82);
+  line-height: 1.55;
+}
+
+.body a {
+  color: rgb(var(--color-accent-foreground));
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+@media (max-width: 720px) {
+  .about {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    max-width: none;
+  }
+}
