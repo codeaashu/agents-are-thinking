@@ -1,5 +1,5 @@
 <h3>
-<img width="512" height="512" alt="AAT" src="https://github.com/user-attachments/assets/18d66968-9d49-4096-b7fc-dc5f5527a2eb" />
+<img src="/site/public/android-chrome-512x512.png" width="18" style="vertical-align: middle;" />
   agents-are-thinking
 </h3> 
 
