@@ -6,7 +6,7 @@ Terminal animation effects for agents' "thinking" state. Braille, block characte
 
 ## Get Started 
 
-~The package is implemented in python.~ The package is written in rust. And provides python binding using [PY03](https://github.com/PyO3/pyo3), and wasm binding using [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen).
+The package is written in rust. And provides python binding using [PY03](https://github.com/PyO3/pyo3), and wasm binding using [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen).
 
 ### "Too complicated, just want to watch them thinking!"
 
