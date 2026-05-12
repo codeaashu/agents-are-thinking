@@ -3,7 +3,7 @@ import { EFFECTS } from 'agents-are-thinking';
 import { Header } from './Header';
 import { InfiniteCanvas } from './InfiniteCanvas';
 import { Drawer } from './Drawer';
-import s from './App.module.css';
+// import s from './App.module.css';
 
 function App() {
   const [selected, setSelected] = useState<number | null>(null);
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Header />
-      <aside className={s.about} aria-label="About this project">
+      {/* <aside className={s.about} aria-label="About this project">
         <p className={s.kicker}>About</p>
         <h1 className={s.heading}>Agents Are Thinking</h1>
         <p className={s.body}>
@@ -32,7 +32,7 @@ function App() {
           </a>
           .
         </p>
-      </aside>
+      </aside> */}
       <InfiniteCanvas onSelect={setSelected} />
       <Drawer
         effectIndex={selected ?? 0}
