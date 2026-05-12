@@ -1,4 +1,7 @@
-# agents-are-thinking
+<h3>
+<img width="512" height="512" alt="AAT" src="https://github.com/user-attachments/assets/18d66968-9d49-4096-b7fc-dc5f5527a2eb" />
+  agents-are-thinking
+</h3> 
 
 Terminal animation effects for agents' "thinking" state. Braille, block characters, unicode glyphs. No runtime dependencies.
 
