@@ -1,6 +1,6 @@
 <h3>
 <img src="/site/public/android-chrome-512x512.png" width="18" style="vertical-align: middle;" />
-  agents-are-thinking
+  Agents Are Thinking
 </h3> 
 
 Terminal animation effects for agents' "thinking" state. Braille, block characters, unicode glyphs. No runtime dependencies.
